@@ -5,10 +5,12 @@ using UnityEngine.UI;
 
 public class PlayerUi : MonoBehaviour
 {
+   public  Text healtAmount;
+
+    CharacterStats playerstats;
+
+    
 
 
-   public Text   healthAmount;
 
-   
-   
 }

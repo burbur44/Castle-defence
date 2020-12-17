@@ -22,7 +22,7 @@ public class PlayerControler : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         isGrouded = Physics.CheckSphere(groudCheck.position, groudDistance, groudMask);
         if (isGrouded && velocity.y < 0) {
